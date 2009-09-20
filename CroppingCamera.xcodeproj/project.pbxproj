@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* CroppingCameraAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* CroppingCameraAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* InfoViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* CCInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* CCInfoViewController.m */; };
+		B912D1D0105676A700C58A37 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B912D1CF105676A700C58A37 /* CoreLocation.framework */; };
+		B912D24F10569CB700C58A37 /* libiphone-exif.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B912D24E10569CB700C58A37 /* libiphone-exif.a */; };
+		B962DC721043C90B00BAD92E /* CCCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B962DC711043C90B00BAD92E /* CCCameraViewController.m */; };
+		B9A0EC6C10536224006DB543 /* ALPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A0EC6B10536224006DB543 /* ALPreferences.m */; };
+		B9A0EC7E10536CF5006DB543 /* CCPrefsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A0EC7D10536CF5006DB543 /* CCPrefsCell.m */; };
+		B9A0ECFD1053C7AC006DB543 /* black.png in Resources */ = {isa = PBXBuildFile; fileRef = B9A0ECFC1053C7AC006DB543 /* black.png */; };
+		B9A1DA93104D3F7600587663 /* CCImagePreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A1DA92104D3F7600587663 /* CCImagePreviewCell.m */; };
+		B9A49A981055FA3000940518 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = B9A49A971055FA3000940518 /* Entitlements.plist */; };
+		B9A49BA210562EA500940518 /* ALImageWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A49BA110562EA500940518 /* ALImageWriter.m */; };
+		B9A5AF5D10522FB200E1E3BD /* ALApps.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A5AF5C10522FB200E1E3BD /* ALApps.m */; };
+		B9A5AF5F105231F200E1E3BD /* apps.plist in Resources */ = {isa = PBXBuildFile; fileRef = B9A5AF5E105231F200E1E3BD /* apps.plist */; };
+		B9A5AF711052351700E1E3BD /* CCAppsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A5AF701052351700E1E3BD /* CCAppsCell.m */; };
+		B9A5AF93105238C100E1E3BD /* EasyCamera.png in Resources */ = {isa = PBXBuildFile; fileRef = B9A5AF92105238C100E1E3BD /* EasyCamera.png */; };
+		B9A5AF971052390F00E1E3BD /* ShadowCamera.png in Resources */ = {isa = PBXBuildFile; fileRef = B9A5AF961052390F00E1E3BD /* ShadowCamera.png */; };
+		B9A5AFA310523B1300E1E3BD /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B9A5AFA210523B1300E1E3BD /* Icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* CroppingCameraAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CroppingCameraAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* CroppingCameraAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CroppingCameraAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* CroppingCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CroppingCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* InfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* CCInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCInfoViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* CCInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCInfoViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* CroppingCamera_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CroppingCamera_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* CroppingCamera-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CroppingCamera-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		B912D1CF105676A700C58A37 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B912D24E10569CB700C58A37 /* libiphone-exif.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libiphone-exif.a"; sourceTree = "<group>"; };
+		B92E1ABE1046A692008C2E47 /* EXFTagDefinitionHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXFTagDefinitionHolder.h; sourceTree = "<group>"; };
+		B92E1ABF1046A692008C2E47 /* EXFLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXFLogging.h; sourceTree = "<group>"; };
+		B92E1AC01046A692008C2E47 /* EXFGPS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXFGPS.h; sourceTree = "<group>"; };
+		B92E1AC11046A692008C2E47 /* EXFHandlers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXFHandlers.h; sourceTree = "<group>"; };
+		B92E1AC21046A692008C2E47 /* EXFConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXFConstants.h; sourceTree = "<group>"; };
+		B92E1AC31046A692008C2E47 /* EXFJpeg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXFJpeg.h; sourceTree = "<group>"; };
+		B92E1AC41046A692008C2E47 /* EXF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXF.h; sourceTree = "<group>"; };
+		B92E1AC51046A692008C2E47 /* EXFJFIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXFJFIF.h; sourceTree = "<group>"; };
+		B92E1AC61046A692008C2E47 /* EXFMetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXFMetaData.h; sourceTree = "<group>"; };
+		B92E1AC71046A692008C2E47 /* EXFUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXFUtils.h; sourceTree = "<group>"; };
+		B962DC701043C90B00BAD92E /* CCCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCameraViewController.h; sourceTree = "<group>"; };
+		B962DC711043C90B00BAD92E /* CCCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCameraViewController.m; sourceTree = "<group>"; };
+		B9A0EC6A10536224006DB543 /* ALPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALPreferences.h; sourceTree = "<group>"; };
+		B9A0EC6B10536224006DB543 /* ALPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALPreferences.m; sourceTree = "<group>"; };
+		B9A0EC7C10536CF5006DB543 /* CCPrefsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPrefsCell.h; sourceTree = "<group>"; };
+		B9A0EC7D10536CF5006DB543 /* CCPrefsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPrefsCell.m; sourceTree = "<group>"; };
+		B9A0ECFC1053C7AC006DB543 /* black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black.png; sourceTree = "<group>"; };
+		B9A1DA91104D3F7600587663 /* CCImagePreviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCImagePreviewCell.h; sourceTree = "<group>"; };
+		B9A1DA92104D3F7600587663 /* CCImagePreviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCImagePreviewCell.m; sourceTree = "<group>"; };
+		B9A49A971055FA3000940518 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		B9A49BA010562EA500940518 /* ALImageWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALImageWriter.h; sourceTree = "<group>"; };
+		B9A49BA110562EA500940518 /* ALImageWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALImageWriter.m; sourceTree = "<group>"; };
+		B9A5AF5B10522FB200E1E3BD /* ALApps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALApps.h; sourceTree = "<group>"; };
+		B9A5AF5C10522FB200E1E3BD /* ALApps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALApps.m; sourceTree = "<group>"; };
+		B9A5AF5E105231F200E1E3BD /* apps.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = apps.plist; sourceTree = "<group>"; };
+		B9A5AF6F1052351700E1E3BD /* CCAppsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCAppsCell.h; sourceTree = "<group>"; };
+		B9A5AF701052351700E1E3BD /* CCAppsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCAppsCell.m; sourceTree = "<group>"; };
+		B9A5AF92105238C100E1E3BD /* EasyCamera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EasyCamera.png; sourceTree = "<group>"; };
+		B9A5AF961052390F00E1E3BD /* ShadowCamera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShadowCamera.png; sourceTree = "<group>"; };
+		B9A5AFA210523B1300E1E3BD /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				B912D1D0105676A700C58A37 /* CoreLocation.framework in Frameworks */,
+				B912D24F10569CB700C58A37 /* libiphone-exif.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* CroppingCameraAppDelegate.h */,
+				1D3623250D0F684500981E51 /* CroppingCameraAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* CroppingCamera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				B962DC591043C61300BAD92E /* controllers */,
+				B962DC5C1043C61A00BAD92E /* views */,
+				B962DC5A1043C61A00BAD92E /* models */,
+				B962DC5B1043C61A00BAD92E /* libs */,
+				B92E1AB21046A513008C2E47 /* extlib */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* CroppingCamera_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2899E5210DE3E06400AC0155 /* InfoViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* CroppingCamera-Info.plist */,
+				B9A5AF5E105231F200E1E3BD /* apps.plist */,
+				B9A5AF92105238C100E1E3BD /* EasyCamera.png */,
+				B9A5AF961052390F00E1E3BD /* ShadowCamera.png */,
+				B9A5AFA210523B1300E1E3BD /* Icon.png */,
+				B9A0ECFC1053C7AC006DB543 /* black.png */,
+				B9A49A971055FA3000940518 /* Entitlements.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B912D1CF105676A700C58A37 /* CoreLocation.framework */,
+				B912D24E10569CB700C58A37 /* libiphone-exif.a */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B92E1AB21046A513008C2E47 /* extlib */ = {
+			isa = PBXGroup;
+			children = (
+				B92E1ABE1046A692008C2E47 /* EXFTagDefinitionHolder.h */,
+				B92E1ABF1046A692008C2E47 /* EXFLogging.h */,
+				B92E1AC01046A692008C2E47 /* EXFGPS.h */,
+				B92E1AC11046A692008C2E47 /* EXFHandlers.h */,
+				B92E1AC21046A692008C2E47 /* EXFConstants.h */,
+				B92E1AC31046A692008C2E47 /* EXFJpeg.h */,
+				B92E1AC41046A692008C2E47 /* EXF.h */,
+				B92E1AC51046A692008C2E47 /* EXFJFIF.h */,
+				B92E1AC61046A692008C2E47 /* EXFMetaData.h */,
+				B92E1AC71046A692008C2E47 /* EXFUtils.h */,
+			);
+			path = extlib;
+			sourceTree = "<group>";
+		};
+		B962DC591043C61300BAD92E /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B962DC701043C90B00BAD92E /* CCCameraViewController.h */,
+				B962DC711043C90B00BAD92E /* CCCameraViewController.m */,
+				28D7ACF60DDB3853001CB0EB /* CCInfoViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* CCInfoViewController.m */,
+			);
+			name = controllers;
+			path = Classes/controllers;
+			sourceTree = "<group>";
+		};
+		B962DC5A1043C61A00BAD92E /* models */ = {
+			isa = PBXGroup;
+			children = (
+				B9A5AF5B10522FB200E1E3BD /* ALApps.h */,
+				B9A5AF5C10522FB200E1E3BD /* ALApps.m */,
+				B9A0EC6A10536224006DB543 /* ALPreferences.h */,
+				B9A0EC6B10536224006DB543 /* ALPreferences.m */,
+			);
+			name = models;
+			path = Classes/models;
+			sourceTree = "<group>";
+		};
+		B962DC5B1043C61A00BAD92E /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				B9A49BA010562EA500940518 /* ALImageWriter.h */,
+				B9A49BA110562EA500940518 /* ALImageWriter.m */,
+			);
+			name = libs;
+			path = Classes/libs;
+			sourceTree = "<group>";
+		};
+		B962DC5C1043C61A00BAD92E /* views */ = {
+			isa = PBXGroup;
+			children = (
+				B9A1DA90104D3F5F00587663 /* cells */,
+			);
+			name = views;
+			path = Classes/views;
+			sourceTree = "<group>";
+		};
+		B9A1DA90104D3F5F00587663 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				B9A1DA91104D3F7600587663 /* CCImagePreviewCell.h */,
+				B9A1DA92104D3F7600587663 /* CCImagePreviewCell.m */,
+				B9A5AF6F1052351700E1E3BD /* CCAppsCell.h */,
+				B9A5AF701052351700E1E3BD /* CCAppsCell.m */,
+				B9A0EC7C10536CF5006DB543 /* CCPrefsCell.h */,
+				B9A0EC7D10536CF5006DB543 /* CCPrefsCell.m */,
+			);
+			name = cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* CroppingCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "CroppingCamera" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CroppingCamera;
+			productName = CroppingCamera;
+			productReference = 1D6058910D05DD3D006BFB54 /* CroppingCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CroppingCamera" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* CroppingCamera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* InfoViewController.xib in Resources */,
+				B9A5AF5F105231F200E1E3BD /* apps.plist in Resources */,
+				B9A5AF93105238C100E1E3BD /* EasyCamera.png in Resources */,
+				B9A5AF971052390F00E1E3BD /* ShadowCamera.png in Resources */,
+				B9A5AFA310523B1300E1E3BD /* Icon.png in Resources */,
+				B9A0ECFD1053C7AC006DB543 /* black.png in Resources */,
+				B9A49A981055FA3000940518 /* Entitlements.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* CroppingCameraAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* CCInfoViewController.m in Sources */,
+				B962DC721043C90B00BAD92E /* CCCameraViewController.m in Sources */,
+				B9A1DA93104D3F7600587663 /* CCImagePreviewCell.m in Sources */,
+				B9A5AF5D10522FB200E1E3BD /* ALApps.m in Sources */,
+				B9A5AF711052351700E1E3BD /* CCAppsCell.m in Sources */,
+				B9A0EC6C10536224006DB543 /* ALPreferences.m in Sources */,
+				B9A0EC7E10536CF5006DB543 /* CCPrefsCell.m in Sources */,
+				B9A49BA210562EA500940518 /* ALImageWriter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CroppingCamera_Prefix.pch;
+				INFOPLIST_FILE = "CroppingCamera-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = CroppingCamera;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CroppingCamera_Prefix.pch;
+				INFOPLIST_FILE = "CroppingCamera-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = CroppingCamera;
+			};
+			name = Release;
+		};
+		B9A49A9F1055FA5400940518 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Kyosuke Takayama";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C41A7BD2-3E5E-433F-AFA5-AC83C2872DB4";
+				SDKROOT = iphoneos3.0;
+			};
+			name = Distribution;
+		};
+		B9A49AA01055FA5400940518 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CroppingCamera_Prefix.pch;
+				INFOPLIST_FILE = "CroppingCamera-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = CroppingCamera;
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Kyosuke Takayama";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B953219C-FACD-48FB-A20A-25188A996515";
+				SDKROOT = iphoneos3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "CroppingCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				B9A49AA01055FA5400940518 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CroppingCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				B9A49A9F1055FA5400940518 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

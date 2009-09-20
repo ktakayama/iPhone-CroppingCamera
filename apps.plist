@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+   <array>
+      <dict>
+         <key>appid</key>
+         <integer>302968595</integer>
+         <key>name</key>
+         <string>Easy Camera</string>
+         <key>icon</key>
+         <string>EasyCamera.png</string>
+      </dict>
+      <dict>
+         <key>appid</key>
+         <integer>307368608</integer>
+         <key>name</key>
+         <string>Shadow Camera</string>
+         <key>icon</key>
+         <string>ShadowCamera.png</string>
+      </dict>
+   </array>
+</plist>

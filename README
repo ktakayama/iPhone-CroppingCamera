@@ -1,0 +1,17 @@
+CroppingCamera by Kyosuke Takayama
+http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=330994754&mt=8
+
+Exif情報の書き込みに対応したカメラアプリです。
+
+iPhoneOS 3.0, 3.1 で動作確認済み
+
+公式APIを無視した感じなので、今後どうなうかは不透明ですから、
+実戦投入する場合はその辺よく考えてくださいね。
+
+あとライセンスが GPLv2 なので、CroppingCamera のソースを流用する場合は、
+そのアプリも GPLv2 としてソース公開の義務が発生します。
+
+Exif情報の書き込みに、iphone-exif ライブラリを使用させてもらっています。
+多謝。
+http://code.google.com/p/iphone-exif/
+
