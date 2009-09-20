@@ -10,6 +10,7 @@ iPhoneOS 3.0, 3.1 で動作確認済み
 
 あとライセンスが GPLv2 なので、CroppingCamera のソースを流用する場合は、
 そのアプリも GPLv2 としてソース公開の義務が発生します。
+iphone-exif のライセンスが GPLv2 なので、CroppingCamera も自動的に GPLv2 になりました。
 
 Exif情報の書き込みに、iphone-exif ライブラリを使用させてもらっています。
 多謝。
